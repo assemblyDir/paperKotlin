@@ -1,7 +1,13 @@
+import org.jetbrains.dokka.gradle.tasks.DokkaGeneratePublicationTask
+
 plugins {
     org.jetbrains.kotlin.jvm
     org.jetbrains.dokka
     com.gradleup.shadow
+}
+
+base {
+    archivesName = "${rootProject.name}-${project.name}"
 }
 
 repositories {
@@ -22,7 +28,7 @@ tasks.build {
 }
 
 tasks.jar {
-    enabled = false
+    archiveClassifier = "jarfile"
 }
 
 tasks.shadowJar {
