@@ -8,7 +8,7 @@ repositories {
 }
 
 dependencies {
-    implementation(libs.kotlin.jvm)
+    implementation(libs.kotlin)
     implementation(libs.dokka)
     implementation(libs.shadow)
     implementation(libs.paperWeight)

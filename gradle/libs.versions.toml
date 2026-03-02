@@ -26,7 +26,7 @@ kotlinx-datetime-jvm = { module = "org.jetbrains.kotlinx:kotlinx-datetime-jvm", 
 kotlinx-io-core-jvm = { module = "org.jetbrains.kotlinx:kotlinx-io-core-jvm", version.ref = "kotlinx-io" }
 kotlinx-io-bytestring-jvm = { module = "org.jetbrains.kotlinx:kotlinx-io-bytestring-jvm", version.ref = "kotlinx-io" }
 ### plugin libraries
-kotlin-jvm = { module = "org.jetbrains.kotlin:kotlin-gradle-plugin", version.ref = "kotlin" }
+kotlin = { module = "org.jetbrains.kotlin:kotlin-gradle-plugin", version.ref = "kotlin" }
 dokka = { module = "org.jetbrains.dokka:dokka-gradle-plugin", version.ref = "dokka" }
 shadow = { module = "com.gradleup.shadow:shadow-gradle-plugin", version.ref = "shadow" }
 paperWeight = { module = "io.papermc.paperweight.userdev:io.papermc.paperweight.userdev.gradle.plugin", version.ref = "paperWeight" }

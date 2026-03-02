@@ -1,5 +1,3 @@
-import org.jetbrains.dokka.gradle.tasks.DokkaGeneratePublicationTask
-
 plugins {
     org.jetbrains.kotlin.jvm
     org.jetbrains.dokka
