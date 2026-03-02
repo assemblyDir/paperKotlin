@@ -4,7 +4,6 @@ import org.bukkit.event.Listener
 import org.bukkit.plugin.Plugin
 import org.bukkit.plugin.PluginManager
 import org.bukkit.plugin.java.JavaPlugin
-import org.jetbrains.annotations.ApiStatus
 
 /**
  * Registers one or more event listeners for the given plugin.
@@ -12,7 +11,6 @@ import org.jetbrains.annotations.ApiStatus
  * @receiver [JavaPlugin] instance
  * @param listeners One or more [Listener] instances to register
  */
-@ApiStatus.Experimental
 fun JavaPlugin.registerEvents(
     vararg listeners: Listener
 ) = listeners.forEach { listener ->
