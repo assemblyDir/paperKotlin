@@ -5,6 +5,6 @@ plugins {
 }
 
 dependencies {
-    api(project(":core"))
+    api(project(":paperKotlin:core"))
     api(libs.bundles.kotlin)
 }

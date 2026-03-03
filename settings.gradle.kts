@@ -1,3 +1,3 @@
 rootProject.name = "paperKotlin"
 
-include("core", "paper")
+include(":paperKotlin:core", ":paperKotlin:paper")

@@ -16,9 +16,11 @@ dependencies {
 tasks.processResources {
     filteringCharset = "UTF-8"
     val properties = mapOf(
+        "name" to rootProject.name,
         "description" to project.description,
-        "version" to project.version,
-        "minecraft" to minecraft,
+        "version" to project.version.toString(),
+        "group" to project.group.toString(),
+        "minecraft_version" to minecraft,
     )
     inputs.properties(properties)
     filesMatching("paper-plugin.yml") {

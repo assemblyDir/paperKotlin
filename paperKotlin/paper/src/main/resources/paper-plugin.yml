@@ -1,0 +1,8 @@
+name: ${name}
+description: ${description}
+version: ${version}
+authors: [ alexthegoood ]
+load: STARTUP
+main: ${group}.PaperKotlin
+api-version: ${minecraft_version}
+website: https://github.com/assemblyDir/paperKotlin
